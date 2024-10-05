@@ -26,7 +26,7 @@ def create_month_2012_df(df):
     month_2012_df["month_name"] = ["January","February","March","April","May","June","July","August","September","October", "November","December"]
     return month_2012_df
 
-day_df = pd.read_csv("day.csv")
+day_df = pd.read_csv("Dashboard/day.csv")
 season_df = create_season_df(day_df)
 month_2012_df =  create_month_2012_df (day_df)
 
